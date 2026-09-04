@@ -1,0 +1,184 @@
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+#arthematic operations
+a=2;b=4
+print(a+b)
+6
+print(a-b)
+-2
+print(a*b)
+8
+print(a//b)
+0
+print(a/b)
+0.5
+print(a%b)
+2
+print(a**b)
+16
+#assignment operators
+a=3
+b=6
+a+=b
+a
+9
+a-=b
+a
+3
+a*=b
+a
+18
+a//=b
+a
+3
+a/=b
+a
+0.5
+a**=b
+a
+0.015625
+a
+0.015625
+b+=a
+b
+6.015625
+b-=a
+b
+6.0
+b*=a
+b
+0.09375
+b//=a
+b
+6.0
+b/=a
+b
+384.0
+b**=a
+b
+1.0974384582244276
+b
+1.0974384582244276
+
+#comparisions
+a=4;b=5
+a<b
+True
+a>b
+False
+b<a
+False
+b>a
+True
+a<=b
+True
+a>=b
+False
+b<=a
+False
+b>=a
+True
+a==b
+False
+
+
+#logical operators
+a=5;b=10
+a<b and b>a
+True
+a>b and b>a
+False
+a<=b and b>=a
+True
+a!=b and a==b
+False
+a<b or b>a
+True
+a<=b or b<=a
+True
+
+not true
+Traceback (most recent call last):
+  File "<pyshell#61>", line 1, in <module>
+    not true
+NameError: name 'true' is not defined. Did you mean: 'True'?
+not True
+False
+not False
+True
+
+ 
+#identifify
+a=6;b=3.5
+type(a) is int
+True
+type(a) is not int
+False
+KeyboardInterrupt
+type(a) is float
+False
+type(a) is not float
+True
+type(b) is int
+False
+type(b) is not int
+True
+type(b) is float
+True
+type(b) is not float
+False
+
+#membership operator
+a=1,2,3,4,5,6
+9 in a
+False
+6 in a
+True
+10 not in a
+True
+>>> 2 not in a
+False
+>>> 
+>>> #bitwise opearators
+>>> a=2
+>>> b=6
+>>> bin(2)
+'0b10'
+>>> bin(6)
+'0b110'
+>>> a&b
+2
+>>> a=5;b=7
+>>> a&b
+5
+>>> a=3;b=4
+>>> a*b
+12
+>>> a&b
+0
+>>> a|b
+7
+>>> a=6;b=3
+>>> a|b
+7
+>>> a=9;b=7
+>>> a|b
+15
+>>> a=4
+>>> b=5
+>>> ~a
+-5
+>>> ~b
+-6
+>>> a=-4
+>>> ~a
+3
+>>> a=3
+>>> b=5
+>>> a^b
+6
+>>> a=2
+>>> a<<2
+8
+>>> a>>2
+0
